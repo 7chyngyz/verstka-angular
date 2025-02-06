@@ -2,9 +2,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `
+  <div class="flex">
+    <app-sidebar></app-sidebar>
+    <app-apperance></app-apperance>
+  </div>
+  `,
   standalone: false,
-  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'verstka-tailwind';
