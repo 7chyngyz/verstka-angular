@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
   <div class="flex">
-    <app-sidebar></app-sidebar>
-    <app-apperance></app-apperance>
+    <!-- <app-sidebar></app-sidebar> -->
+    <!-- <app-apperance></app-apperance> -->
+    <router-outlet></router-outlet>
   </div>
   `,
   standalone: false,
